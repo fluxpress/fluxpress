@@ -1,5 +1,3 @@
 #!/usr/bin/env node
 
-import { version } from '../package.json'
-
-console.log('fluxpress version:', version)
+import('../dist/cli.js')
