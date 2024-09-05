@@ -1,6 +1,9 @@
 {
   "name": "fluxpress",
   "version": "0.1.0-alpha",
+  "engines": {
+    "node": ">=20.9.0"
+  },
   "description": "A proxy for @fluxpress/cli",
   "type": "module",
   "bin": {
@@ -19,8 +22,7 @@
     "url": "git+https://github.com/fluxpress/fluxpress.git"
   },
   "keywords": [
-    "fluxpress",
-    "cli"
+    "fluxpress"
   ],
   "author": "liangpengyv",
   "license": "MIT",
