@@ -1,0 +1,41 @@
+{
+  "name": "fluxpress",
+  "version": "0.1.0-alpha",
+  "description": "A proxy for @fluxpress/cli",
+  "type": "module",
+  "bin": {
+    "fluxpress": "bin/fluxpress.js"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  },
+  "files": [
+    "bin/"
+  ],
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fluxpress/fluxpress.git"
+  },
+  "keywords": [
+    "fluxpress",
+    "cli"
+  ],
+  "author": "liangpengyv",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fluxpress/fluxpress/issues"
+  },
+  "homepage": "https://github.com/fluxpress/fluxpress#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.9.0",
+    "@types/eslint__js": "^8.42.3",
+    "@types/node": "^22.5.0",
+    "eslint": "^9.9.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "globals": "^15.9.0",
+    "prettier": "^3.3.3"
+  }
+}
