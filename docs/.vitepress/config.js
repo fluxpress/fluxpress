@@ -6,6 +6,7 @@ const pkg = require('../../package.json')
 
 export default defineConfig({
   // 站点级选项
+  base: 'fluxpress',
   lang: 'zh-Hans',
   title: 'FluxPress',
   description: '围绕 GitHub 生态构建的静态站点生成器',
