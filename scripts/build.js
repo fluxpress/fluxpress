@@ -1,11 +1,10 @@
 process.env.NODE_ENV = 'production'
 
-import { remove } from 'fs-extra'
+import { copy, remove } from 'fs-extra'
 
-import { runCommand } from './utils.js'
-
-await remove('out')
-await runCommand({ command: 'tsc', name: 'tsc' })
-
+await remove('bin')
 await remove('dist')
-await runCommand({ command: 'rollup --config', name: 'rollup' })
+
+await copy('node_modules/@fluxpress/core/dist/', 'dist/')
+await copy('node_modules/@fluxpress/cli/dist/', 'dist/')
+await copy('node_modules/@fluxpress/cli/bin/', 'bin/')
