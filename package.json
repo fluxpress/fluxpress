@@ -1,6 +1,6 @@
 {
   "name": "fluxpress",
-  "version": "0.1.4-alpha",
+  "version": "0.1.5-alpha",
   "engines": {
     "node": ">=20.9.0"
   },
@@ -14,8 +14,8 @@
     "build": "node scripts/build.js"
   },
   "dependencies": {
-    "@fluxpress/cli": "^0.1.6-alpha",
-    "@fluxpress/core": "^0.1.8-alpha"
+    "@fluxpress/cli": "0.1.6-alpha",
+    "@fluxpress/core": "0.1.8-alpha"
   },
   "devDependencies": {
     "fs-extra": "^11.2.0"
