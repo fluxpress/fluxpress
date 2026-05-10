@@ -2,10 +2,11 @@
 
 <div align="center">
 
-<img src="https://fluxpress.github.io/logo-black.svg#gh-light-mode-only" alt="FluxPress Logo" width="180" />
-<img src="https://fluxpress.github.io/logo-white.svg#gh-dark-mode-only" alt="FluxPress Logo" width="180" />
+<img src="https://fluxpress.github.io/logo-mini.png" alt="FluxPress Logo" width="120" />
 
 **围绕 GitHub 生态构建的静态站点生成器**
+
+通过 GitHub 写作，无需管理数据
 
 [![npm version](https://img.shields.io/npm/v/fluxpress?color=blue)](https://www.npmjs.com/package/fluxpress)
 [![license](https://img.shields.io/npm/l/fluxpress)](https://github.com/fluxpress/fluxpress/blob/main/LICENSE)
